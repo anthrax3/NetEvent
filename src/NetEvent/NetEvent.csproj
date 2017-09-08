@@ -8,7 +8,7 @@
     <AssemblyName>NetEvent</AssemblyName>
     <PackageId>NetEvent</PackageId>
     <PackageTags>events;messaging</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/hmemcpy/NServiceBus.Wire/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/rogeralsing/NetEvent/master/resources/event.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/rogeralsing/Wire</PackageProjectUrl>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
