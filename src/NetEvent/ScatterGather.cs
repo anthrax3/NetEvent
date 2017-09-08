@@ -13,7 +13,7 @@ namespace NetEvent
         {
             Subscriptions.Add(subscription);
         }
-        public static void RegisterHandler(Func<TRequest, TResponse> subscription)
+        public static void Subscribe(Func<TRequest, TResponse> subscription)
         {
             Task<TResponse> Wrapper(TRequest m) => Task.FromResult(subscription(m));
             Subscriptions.Add(Wrapper);

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEvent", "NetEvent\NetEvent.csproj", "{9D9A0D7A-70BD-4BDE-9081-AB91C83481C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvent", "NetEvent\NetEvent.csproj", "{9D9A0D7A-70BD-4BDE-9081-AB91C83481C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEvent.Tests", "..\tests\NetEvent.Tests\NetEvent.Tests.csproj", "{FBF9162D-7404-48ED-BC36-0D3AB6F1ED46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9D9A0D7A-70BD-4BDE-9081-AB91C83481C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D9A0D7A-70BD-4BDE-9081-AB91C83481C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D9A0D7A-70BD-4BDE-9081-AB91C83481C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF9162D-7404-48ED-BC36-0D3AB6F1ED46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF9162D-7404-48ED-BC36-0D3AB6F1ED46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF9162D-7404-48ED-BC36-0D3AB6F1ED46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF9162D-7404-48ED-BC36-0D3AB6F1ED46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
